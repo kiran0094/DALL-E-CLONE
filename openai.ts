@@ -1,10 +1,10 @@
-import { configuration,OpenAIapi } from "openai";
-const config=new configuration({
-    organization:process.env.OPEN_AI_ORGANIZATION,
-    apikey:process.env.OPENAI_API_KEY,
-    // organization:process.env.OPEN_AI_ORGANIZATION,
-    
-})
-const openai=new OpenAIapi(config);
+import { Configuration, OpenAIApi } from "openai";
 
-export default openai
+const configuration = new Configuration({
+  organization: process.env.OPEN_AI_ORGANIZATION,
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+const openai = new OpenAIApi(configuration);
+
+export default openai;

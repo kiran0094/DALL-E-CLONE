@@ -22,7 +22,7 @@ const Header = () => {
       </div>
       {/* rigth */}
       <div className='text-xs md:text-base text-gray-500'>
-       <Link href='https://online.tsrtcpass.in/secondPass.do' className='px-2 font-light text-right'>github repo</Link>
+       <Link href='https://github.com/kiran0094/DALL-E-CLONE' className='px-2 font-light text-right'>github repo</Link>
       </div>
     </header>
   )
